@@ -1,0 +1,5 @@
+class PortletsController < ApplicationController
+  def index
+  end
+
+end

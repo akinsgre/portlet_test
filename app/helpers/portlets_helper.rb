@@ -1,0 +1,2 @@
+module PortletsHelper
+end

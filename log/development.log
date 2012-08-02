@@ -1,0 +1,1364 @@
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-18 20:30:15 -0500
+Served asset /rails.png - 200 OK (21ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:44:54 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (24.5ms)
+Compiled application.css  (41ms)  (pid 5729)
+Compiled portlets.css  (94ms)  (pid 5729)
+Compiled black-tie.css  (24ms)  (pid 5729)
+Compiled application.js  (18ms)  (pid 5729)
+Compiled jquery.js  (14ms)  (pid 5729)
+Compiled jquery_ujs.js  (0ms)  (pid 5729)
+Compiled jqueryui.js  (64ms)  (pid 5729)
+Compiled jquery-ui-1.8.16.custom.min.js  (5ms)  (pid 5729)
+Compiled portlets.js  (93ms)  (pid 5729)
+Completed 200 OK in 672ms (Views: 671.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /portlets.css - 200 OK (2ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /black-tie.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 200 OK (76ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /jqueryui.js - 200 OK (4ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /portlets.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:44:56 -0500
+Served asset /application.js - 200 OK (29ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:46:39 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:46:40 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 200 OK (52ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:46:40 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 200 OK (5ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:46:40 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 200 OK (6ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePortlets (20120219014333)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "portlets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "col" integer, "row" integer, "html" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120219014333')
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("portlets")[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePortlets (20120219014333)
+Migrating to AddTitleToPortlet (20120219014856)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "portlets" ADD "title" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120219014856')
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("portlets")[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:50:47 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 291ms (Views: 290.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:50:48 -0500
+Served asset /portlets.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /black-tie.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /jqueryui.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /portlets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:50:49 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.4ms)
+Compiled application.css  (30ms)  (pid 5778)
+Compiled portlets.css  (0ms)  (pid 5778)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:51:33 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled application.css  (32ms)  (pid 5778)
+Completed 200 OK in 183ms (Views: 182.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /portlets.css - 200 OK (42ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:52:41 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Compiled portlets.css  (0ms)  (pid 5778)
+Compiled application.css  (6ms)  (pid 5778)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /portlets.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:53:29 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.3ms)
+Compiled application.js  (9ms)  (pid 5778)
+Compiled portlets.js  (0ms)  (pid 5778)
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:39 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:57:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 20:58:16 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled application.js  (6ms)  (pid 5778)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /portlets.js - 200 OK (30ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 20:58:17 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 21:05:04 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+  Processing by PortletsController#index as HTML
+Rendered portlets/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:13:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:17:09 -0500
+  Processing by PortletsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant PortletsController::Porlet):
+  app/controllers/portlets_controller.rb:3:in `index'
+
+Rendered /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:17:51 -0500
+  Processing by PortletsController#index as HTML
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:17:52 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/portlets.json" for 127.0.0.1 at 2012-02-18 21:17:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/portlets.json"):
+  
+
+Rendered /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:18:13 -0500
+  Processing by PortletsController#index as JSON
+  [1m[35mPortlet Load (0.2ms)[0m  SELECT "portlets".* FROM "portlets" 
+Completed 200 OK in 79ms (Views: 76.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/portlets/index" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+  Processing by PortletsController#index as HTML
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:31 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/portlets/index.html" for 127.0.0.1 at 2012-02-18 21:20:35 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:20:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+  Processing by PortletsController#index as HTML
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /portlets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:21:06 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:22:22 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (25ms)  (pid 5778)
+Completed 200 OK in 128ms (Views: 126.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:22 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /portlets.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:22:23 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (6ms)  (pid 5778)
+Completed 200 OK in 35ms (Views: 33.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /jquery.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /portlets.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:22:40 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:27:47 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.6ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (50ms)  (pid 5778)
+Completed 200 OK in 291ms (Views: 289.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /black-tie.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /portlets.js - 200 OK (39ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:27:48 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (34ms)  (pid 5778)
+Completed 200 OK in 117ms (Views: 115.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+Served asset /portlets.js - 200 OK (2ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:28:11 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.1ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (7ms)  (pid 5778)
+Completed 200 OK in 113ms (Views: 111.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /jqueryui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /portlets.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:28:53 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:28:54 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (6ms)  (pid 5778)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /portlets.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:29:08 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:29:50 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (6ms)  (pid 5778)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:50 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /portlets.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:29:51 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+  Processing by PortletsController#index as HTML
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Rendered portlets/index.html.erb within layouts/application (0.0ms)
+Compiled portlets.js  (0ms)  (pid 5778)
+Compiled application.js  (7ms)  (pid 5778)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /black-tie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /portlets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /jquery-ui-1.8.16.custom.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /jqueryui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /portlets.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-02-18 21:30:40 -0500
+  Processing by PortletsController#index as JSON
+  [1m[36mPortlet Load (0.1ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-02-18 21:30:41 -0500
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-02-18 21:30:41 -0500
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-02-18 21:30:41 -0500
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-01 20:04:43 -0400
+  Processing by PortletsController#index as HTML
+  [1m[36mPortlet Load (0.2ms)[0m  [1mSELECT "portlets".* FROM "portlets" [0m
+Rendered portlets/index.html.erb within layouts/application (15.2ms)
+Cache for Asset (application.css) is stale
+/Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets/black-tie.css isn't in paths: /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/images, /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/javascripts, /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/stylesheets, /Users/gakins/Projects/rubyonrails/portlet_test/vendor/assets/stylesheets, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/jquery-rails-1.0.19/vendor/assets/javascripts
+Compiled application.css  (55ms)  (pid 2108)
+Compiled black-tie.css  (0ms)  (pid 2108)
+Cache for Asset (application.js) is stale
+/Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails31/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js isn't in paths: /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/images, /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/javascripts, /Users/gakins/Projects/rubyonrails/portlet_test/app/assets/stylesheets, /Users/gakins/Projects/rubyonrails/portlet_test/vendor/assets/stylesheets, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets, /Users/gakins/.rvm/gems/ruby-1.9.2-p290@rails3013/gems/jquery-rails-1.0.19/vendor/assets/javascripts
+Compiled application.js  (13ms)  (pid 2108)
+Compiled jquery.js  (32ms)  (pid 2108)
+Compiled jquery_ujs.js  (2ms)  (pid 2108)
+Compiled jqueryui.js  (3ms)  (pid 2108)
+Compiled jquery-ui-1.8.16.custom.min.js  (1ms)  (pid 2108)
+Completed 200 OK in 649ms (Views: 646.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/portlets.css?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /portlets.css - 200 OK (3ms)
+
+
+Started GET "/assets/black-tie.css?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /black-tie.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery-ui-1.8.16.custom.min.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /jquery-ui-1.8.16.custom.min.js - 200 OK (3ms)
+
+
+Started GET "/assets/jqueryui.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /jqueryui.js - 200 OK (19ms)
+
+
+Started GET "/assets/portlets.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /portlets.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-01 20:04:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/portlets/index.json" for 127.0.0.1 at 2012-08-01 20:04:46 -0400
+  Processing by PortletsController#index as JSON
+  [1m[35mPortlet Load (0.1ms)[0m  SELECT "portlets".* FROM "portlets" 
+Completed 200 OK in 101ms (Views: 98.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/black-tie/ui-icons_bbbbbb_256x240.png" for 127.0.0.1 at 2012-08-01 20:04:46 -0400
+Served asset /black-tie/ui-icons_bbbbbb_256x240.png - 200 OK (6ms)
+
+
+Started GET "/assets/black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png" for 127.0.0.1 at 2012-08-01 20:04:46 -0400
+Served asset /black-tie/ui-bg_highlight-hard_100_f9f9f9_1x100.png - 200 OK (6ms)
+
+
+Started GET "/assets/black-tie/ui-bg_diagonals-thick_8_333333_40x40.png" for 127.0.0.1 at 2012-08-01 20:04:46 -0400
+Served asset /black-tie/ui-bg_diagonals-thick_8_333333_40x40.png - 200 OK (4ms)
